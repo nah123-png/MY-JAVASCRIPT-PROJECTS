@@ -1,0 +1,33 @@
+
+body{
+    background-color: #C9B6DE;
+
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.flex-container > div{
+    background-color: #EAE5F0;
+    color: plum;
+    height: 100;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    column-gap: 20;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+.flex-container:last-child{
+    font-size: medium;
+    
+
+}
